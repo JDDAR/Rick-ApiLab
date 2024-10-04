@@ -1,17 +1,18 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import CardItem from "./CardItem";
 
-const Card = () => {
+const Cards = () => {
   //Obtengo los datos desde el store
   const { results } = useSelector((store) => store.card);
   return (
     <>
-      <ul>
+      <div className="cardsContainer">
         {results.map((i) => {
-          return <li key={i.id}>{i.name}</li>;
+          return <CardItem key={i.id} {...i} />;
         })}
-      </ul>
+      </div>
     </>
   );
 };
-export default Card;
+export default Cards;
