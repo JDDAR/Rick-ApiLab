@@ -1,0 +1,31 @@
+@import "../variables";
+
+.containerHome {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../imagenes/BG-RICK.png");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  div {
+    height: 100%;
+  }
+  &__Title {
+    border: 1px solid blue;
+    h1 {
+      color: $color-light-primary;
+      font-size: 5.3rem;
+    }
+    h3 {
+      margin-top: -25px;
+      color: $color-light-primary;
+      font-weight: 200;
+    }
+  }
+  &__Cards {
+    border: 1px solid red;
+  }
+}
