@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7aaef8b7.css",
-    "main.js": "/static/js/main.130260b3.js",
-    "static/media/BG-RICK.png": "/static/media/BG-RICK.c9fa88ab8a82c3022d45.png",
-    "index.html": "/index.html",
-    "main.7aaef8b7.css.map": "/static/css/main.7aaef8b7.css.map",
-    "main.130260b3.js.map": "/static/js/main.130260b3.js.map"
+    "main.css": "/Rick-ApiLab/static/css/main.7aaef8b7.css",
+    "main.js": "/Rick-ApiLab/static/js/main.6229b6fe.js",
+    "static/media/BG-RICK.png": "/Rick-ApiLab/static/media/BG-RICK.c9fa88ab8a82c3022d45.png",
+    "index.html": "/Rick-ApiLab/index.html",
+    "main.7aaef8b7.css.map": "/Rick-ApiLab/static/css/main.7aaef8b7.css.map",
+    "main.6229b6fe.js.map": "/Rick-ApiLab/static/js/main.6229b6fe.js.map"
   },
   "entrypoints": [
     "static/css/main.7aaef8b7.css",
-    "static/js/main.130260b3.js"
+    "static/js/main.6229b6fe.js"
   ]
 }
