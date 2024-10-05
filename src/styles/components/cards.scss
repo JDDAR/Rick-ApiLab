@@ -1,6 +1,19 @@
+@import "../variables";
 .cardsContainer {
   display: flex;
   gap: 25px;
   position: relative;
   align-items: flex-end;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  height: auto;
+  bottom: 0;
+  padding: 25px 0px;
+  z-index: 3;
+}
+
+.cardsContainer::-webkit-scrollbar {
+  display: none; /* Oculta el scrollbar en navegadores basados en WebKit */
 }

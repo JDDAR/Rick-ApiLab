@@ -1,0 +1,49 @@
+@import "../variables";
+.containerModal {
+  &__containerInfo {
+    &__headerEpisode {
+      color: $color-light-primary;
+      div {
+        padding: 15px 25px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid rgba($color-light-primary, 0.1);
+        figure {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          img {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      h3 {
+        padding-left: 25px;
+        margin-top: 25px;
+      }
+    }
+    &__episodeContainer {
+      padding: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: flex-start;
+      border-bottom: 1px solid rgba($color-light-primary, 0.1);
+      span {
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgba($color-light-primary, 0.2);
+        display: flex;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        color: $color-light-primary;
+        font-weight: 600;
+      }
+    }
+  }
+}

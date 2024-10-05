@@ -1,0 +1,22 @@
+@import "../variables";
+
+.contenedorIcons {
+  display: flex;
+  width: auto;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  justify-content: space-between;
+  background-color: rgba($color-dark-secondary, $alpha: 0.5);
+  border-radius: 6px;
+  align-items: flex-end;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 30000;
+  gap: 15px;
+  padding: 5px 15px;
+  span {
+    font-size: 1.3rem;
+    display: flex;
+  }
+}

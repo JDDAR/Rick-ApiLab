@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "../Cards/Cards";
+import imgBG from "../../imagenes/BG-RICK.png";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
         <div className="containerHome__Cards">
           <Cards />
         </div>
+        <figure className="containerHome__BG">
+          <img src={imgBG} alt="imagen de rick y morty" />
+        </figure>
       </section>
     </>
   );
