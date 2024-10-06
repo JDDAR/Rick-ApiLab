@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Rick-ApiLab
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://cdn.dribbble.com/userupload/16941314/file/original-858741a281c4bb4b05eabd9bff9d7e2b.png?resize=400x400" alt="Project Banner" width="400">
+    <img src="https://cdn.dribbble.com/userupload/16941315/file/original-e9be8f658833ce32ceb48362db1f2239.png?resize=400x400" alt="Project Banner" width="400">
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## LINK: [RICK_API](https://jddar.github.io/Rick-ApiLab/) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Rick-ApiLab es una aplicación web desarrollada con **React** y **Redux** que consume la API de [Rick and Morty](https://rickandmortyapi.com/), permitiendo a los usuarios explorar personajes y episodios de la serie. La aplicación implementa modales dinámicos para visualizar detalles de los personajes y episodios.
 
-### `npm test`
+## Características
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Visualización de una lista de personajes de **Rick and Morty**.
+- Detalle de cada personaje con información sobre su estado, especie, género, origen y ubicación.
+- Detalle de episodios asociados a cada personaje.
+- Navegación entre modales para ver la información detallada de personajes y episodios.
+- Consumo dinámico de la [Rick and Morty API](https://rickandmortyapi.com/).
 
-### `npm run build`
+## Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **Redux**: Manejador de estado global para la gestión de modales y datos de personajes y episodios.
+- **Redux Toolkit**: Herramienta para simplificar la configuración de Redux.
+- **React Redux**: Enlace oficial entre React y Redux.
+- **SASS**: Preprocesador de CSS para el manejo de estilos.
+- **Rick and Morty API**: API pública para obtener datos sobre la serie.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación y uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Requisitos previos
 
-### `npm run eject`
+Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu sistema.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Nombre:** Jose Daniel Anacona Ramirez  
+**Correo Electrónico:** jdanaconar@gmail.com
+**GitHub:** [JDDAR](https://github.com/JDDAR)
